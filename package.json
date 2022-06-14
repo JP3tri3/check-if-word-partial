@@ -1,0 +1,8 @@
+{
+  "name": "check-if-word-partial",
+  "version": "1.0.0",
+  "description": "partial version of check-if-word npm package",
+  "main": "index.js",
+  "repository": "github.com/JP3tri3/check-if-word-partial",
+  "license": "MIT"
+}

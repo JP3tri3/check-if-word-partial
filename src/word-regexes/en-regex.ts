@@ -39,4 +39,4 @@ const RegexLib: IRegExLib = {
   ),
 };
 
-export = RegexLib;
+export default RegexLib;

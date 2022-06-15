@@ -1,6 +1,6 @@
 {
   "name": "check-if-word-partial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "partial version of check-if-word npm package by (Devdutta Bain <devdutta.bain@gmail.com>), which was built on top of check-word by ( < david.barinas.dev@gmail.com >)",
   "main": "lib/index.js",
   "types": "lib",

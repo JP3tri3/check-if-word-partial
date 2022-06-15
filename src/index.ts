@@ -1,10 +1,9 @@
 import RegexLib from './word-regexes/en-regex';
 
 /**
- * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word in the
- * language
+ * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word
  */
-export function checkWord(): { check: (word: string) => boolean } {
+export default function checkWord(): { check: (word: string) => boolean } {
   return {
     check: (word: string): boolean => {
       const regex: RegExp = RegexLib[word.length as keyof typeof RegexLib];

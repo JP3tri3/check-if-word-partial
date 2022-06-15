@@ -1,8 +1,6 @@
 /**
- * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word in the
- * language
+ * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word
  */
-export declare function checkWord(): {
-    check: (word: string) => boolean;
-};
+declare const _default: (word: string) => boolean;
+export default _default;
 //# sourceMappingURL=index.d.ts.map

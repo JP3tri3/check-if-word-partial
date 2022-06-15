@@ -8,5 +8,5 @@ interface IRegExLib {
     10: RegExp;
 }
 declare const RegexLib: IRegExLib;
-export = RegexLib;
+export default RegexLib;
 //# sourceMappingURL=en-regex.d.ts.map

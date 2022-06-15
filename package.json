@@ -6,7 +6,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "dev": "node index.js",
     "test": "node test.js"
   },
   "repository": {

@@ -24,7 +24,3 @@ module.exports = function checkWord() {
     },
   };
 };
-
-const checkWord = require('check-if-word-partial'),
-  words = checkWord();
-console.log(words.check('tes1'));

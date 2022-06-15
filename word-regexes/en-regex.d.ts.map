@@ -1,1 +1,1 @@
-{"version":3,"file":"en-regex.d.ts","sourceRoot":"","sources":["en-regex.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,QAAQ,EAAE,MA6Bf,CAAC;AAEF,SAAS,QAAQ,CAAC"}
+{"version":3,"file":"en-regex.d.ts","sourceRoot":"","sources":["en-regex.ts"],"names":[],"mappings":"AAAA,UAAU,SAAS;IACjB,CAAC,EAAE,MAAM,CAAC;IACV,CAAC,EAAE,MAAM,CAAC;IACV,CAAC,EAAE,MAAM,CAAC;IACV,CAAC,EAAE,MAAM,CAAC;IACV,CAAC,EAAE,MAAM,CAAC;IACV,CAAC,EAAE,MAAM,CAAC;IACV,EAAE,EAAE,MAAM,CAAC;CACZ;AAED,QAAA,MAAM,QAAQ,EAAE,SA6Bf,CAAC;AAEF,SAAS,QAAQ,CAAC"}

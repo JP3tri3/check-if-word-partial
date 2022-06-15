@@ -1,4 +1,4 @@
-import RegexLib from '../word-regexes/en-regex';
+import RegexLib from './word-regexes/en-regex';
 
 /**
  * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word in the

@@ -1,12 +1,12 @@
-# check-if-word
+# check-if-word-partial
 
-check if the word exist in the language configured, the language could be english or spanish. built on top of check-word by 
-[s0c5]<david.barinas.dev@gmail.com>. 
+Check if word exists. Partial version of check-if-word npm package by (Devdutta Bain <devdutta.bain@gmail.com>), which was built on top of check-word by ( < david.barinas.dev@gmail.com >)"
+[s0c5]<david.barinas.dev@gmail.com>. Separated Regex and downsized to check only 4 to 10 letter words for specific use.
 
 ### install
 
 ```bash
-$ npm install check-if-word
+$ npm install check-if-word-partial
 ```
 
 ### how to use?
@@ -14,13 +14,12 @@ $ npm install check-if-word
 ```javascript
 var checkWord = require('check-if-word'),
     words     = checkWord('en'); // setup the language for check, default is en
-    
-words.check('dog'); // true
-words.check('perro'); // false
-words.check('hi'); // true
 
+words.check('dog'); // false (less than 4 letters)
+words.check('perro'); // false (wrong word)
+words.check('test'); // true
 
-words.getValidWords(["ajsk", "no", "object", "opal", "perl", "perlpali"]); // [ 'no', 'object', 'opal' ]
+words.getValidWords(["ajsk", "test", "object", "opal", "perl", "perlpali"]); // [ 'test', 'object', 'opal' ]
 
 ...
 
@@ -28,8 +27,4 @@ words.getValidWords(["ajsk", "no", "object", "opal", "perl", "perlpali"]); // [ 
 
 ### credits
 
-thanks to repository  [atebits/words](https://github.com/atebits/Words) and [s0c5]<david.barinas.dev@gmail.com>.
-
-
-
-
+thanks to repository [check-if-word](https://github.com/devduttabain/node-check-if-word)

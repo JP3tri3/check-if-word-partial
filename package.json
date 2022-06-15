@@ -1,8 +1,24 @@
 {
   "name": "check-if-word-partial",
   "version": "1.0.0",
-  "description": "partial version of check-if-word npm package",
+  "description": "partial version of check-if-word npm package by (Devdutta Bain <devdutta.bain@gmail.com>), which was built on top of check-word by ( < david.barinas.dev@gmail.com >)",
   "main": "index.js",
-  "repository": "github.com/JP3tri3/check-if-word-partial",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/JP3tri3/check-if-word-partial"
+  },
+  "keywords": [
+    "dictionary",
+    "words",
+    "check",
+    "word",
+    "exist",
+    "word"
+  ]
 }

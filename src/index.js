@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.checkWord = void 0;
-const en_regex_1 = __importDefault(require("../word-regexes/en-regex"));
+const en_regex_1 = __importDefault(require("./word-regexes/en-regex"));
 /**
  * @returns {{check: (function(*=): boolean)}} a function that determines if the given word is a valid word in the
  * language
